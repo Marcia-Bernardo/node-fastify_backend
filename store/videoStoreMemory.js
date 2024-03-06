@@ -1,16 +1,6 @@
 import { randomUUID } from "node:crypto";
 
-export class DbMemory {
-  // #videos = [] ao invés de array irei usar a estrutura de dados Map e dentro do Map não existe o método push
-
-  // create(video) {
-  //     this.#videos.push(video)
-  // }
-
-  // update(id, video){
-  //     this.#videos.push(video)
-  // }
-
+export class VideoStoreMemory {
   #videos = new Map();
 
   list(search) {

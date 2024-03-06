@@ -1,4 +1,4 @@
-import { sql } from "./db.js";
+import { sql } from "./dbConection.js";
 
 // await sql`DROP TABLE IF EXISTS videos;`;
 
