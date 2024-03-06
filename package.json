@@ -10,7 +10,7 @@
     "nodemon": "^3.1.0",
     "postgres": "^3.4.3"
   },
-  "name": "drinks-backend",
+  "name": "node-fastify-backend",
   "version": "1.0.0",
   "main": "main.js",
   "type": "module",
