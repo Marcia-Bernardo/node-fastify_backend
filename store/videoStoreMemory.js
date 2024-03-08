@@ -31,6 +31,10 @@ export class VideoStoreMemory {
   }
 
   update(id, video) {
+    const searchId = this.#videos.get(id);
+    if (searchId === undefined) {
+      return "No video with this ID";
+    }
     this.#videos.set(id, video);
   }
 
